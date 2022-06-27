@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,500&family=Roboto:ital,wght@0,100;0,500;1,400;1,500;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+
+.container {
+   text-align: center;
+   font-family: 'Roboto';
+   font-weight: 800;
+   letter-spacing: 3px;
+   font-size: 25px;
+   display: flex;
+   flex-direction: column;
+   margin-top: 10em;
+   
+}
+
+.title
+{
+    font-size: 50px;
+    font-family: 'Poppins';
+    color: rgb(44, 43, 43);
+}
+
+.btn:hover 
+{
+   background-color: rgb(63, 60, 60);
+   color: aliceblue;
+    
+}
+
+#value
+{
+    font-size: 80px;
+    margin-top: -0.3em;
+  
+}
+
+.btn 
+{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 120px;
+    height: 38px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
