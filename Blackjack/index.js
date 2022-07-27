@@ -1,6 +1,6 @@
 let firstCard = 10
 let secondCard = 4
-let cards = [`${firstCard} ${secondCard} `]
+let cards = [firstCard, secondCard ]
 let sum = firstCard + secondCard 
 let hasBlackjack = false
 let isAlive = true
@@ -11,13 +11,23 @@ let messageEl = document.getElementById('message-el')
 sumEl = document.querySelector('.sum-el')
 cardsEl = document.getElementById('cards-el')
 
+// get random card
+
+const getRandomCard = () => {
+   
+}
+
 const startGame = () => {
 
   rederGame()
 }
 
 const rederGame = () => {
-   cardsEl.textContent = `Cards: ${cards}`
+  cardsEl.textContent = 'Cards: ' 
+  for (let i = 0; i < cards.length; i++){
+    cardsEl.textContent += cards[i] + ' '
+  }
+    console.log(cards)
    //render out ALL the cards we have
    sumEl.textContent = `Sum: ${sum}`
    if (sum <= 20) {
